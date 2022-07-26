@@ -37,7 +37,6 @@ html {
   background-color: var(--yellow-color);
 }
 
-
 /* start header */
 .navbar {
   background-color: var(--dark-color);
@@ -69,11 +68,17 @@ html {
 .navbar .navbar-toggler[aria-expanded="true"] {
   border-color: var(--green-color);
 }
+.navbar .dropdown-menu {
+  background-color: var(--dark-color);
+}
 .navbar .dropdown-item {
-  color: var(--dark-color);
+  color: var(--section-color);
+}
+.navbar .dropdown-item:hover {
+  background-color: transparent;
+  color: var(--green-color);
 }
 /* end header */
-
 
 /* start carousel */
 .carousel-inner .carousel-item img {
@@ -97,13 +102,11 @@ html {
 }
 /* end carousel */
 
-
 /* start about */
 .about .img-box img {
   filter: sepia(50%);
 }
 /* end about  */
-
 
 /* start services */
 .services .icon-holder {
@@ -125,7 +128,6 @@ html {
 }
 /* end services */
 
-
 /* start team  */
 .team {
   background-color: var(--section-color);
@@ -137,7 +139,6 @@ html {
   background-color: var(--green-color);
 }
 /* end team */
-
 
 /* start subscribe */
 .subscribe {
@@ -160,7 +161,6 @@ html {
 }
 
 /* end subscribe */
-
 
 /* start footer  */
 .footer {
