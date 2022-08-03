@@ -19,7 +19,9 @@
     <!-- start header -->
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
-        <a href="#" class="nvbar-brand fs-4 fw-bold text-light"> TechTop </a>
+        <a href="#" class="nvbar-brand  logo" id="logo" data-text="TechTop ">
+          TechTop
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -53,7 +55,7 @@
               >
                 Services
               </a>
-              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a class="dropdown-item" href="#services">web solution</a>
                 </li>
@@ -113,7 +115,7 @@
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Web Solution</h5>
+              <h5 class="carousel-title">Web Solution</h5>
               <p>
                 custom websites that engage users with stunning & intuitive
                 designs
@@ -127,7 +129,7 @@
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Web Development</h5>
+              <h5 class="carousel-title">Web Development</h5>
               <p>
                 Powerful and cheap web Development packages for your website
               </p>
@@ -140,7 +142,7 @@
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <h5>SEO Optimization</h5>
+              <h5 class="carousel-title">SEO Optimization</h5>
               <p>
                 Optimizing web pages and their content to be easily discoverable
               </p>
@@ -247,41 +249,41 @@
           <div class="col-md-6 col-lg-3">
             <div class="box bg-white">
               <img src="imgs/team (1).jpg" alt="" class="img-fluid w-100" />
-              <h4 class="p-4 text-light">Ramy El Sayed</h4>
-              <blockquote class="text-black-50 p-3">
+              <h4 class="p-4 text-light accordion">Ramy El Sayed</h4>
+              <p class="text-black-50  desc">
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, quod!""
-              </blockquote>
+              </p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="box bg-white">
               <img src="imgs/team (2).jpg" alt="" class="img-fluid w-100" />
-              <h4 class="p-4 text-light">Hoda Al Shami</h4>
-              <blockquote class="text-black-50 p-3">
+              <h4 class="p-4 text-light accordion">Hoda Al Shami</h4>
+              <p class="text-black-50  desc">
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, quod!""
-              </blockquote>
+              </p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="box bg-white">
               <img src="imgs/team (3).jpg" alt="" class="img-fluid w-100" />
-              <h4 class="p-4 text-light">Rowad Al-Ali</h4>
-              <blockquote class="text-black-50 p-3">
+              <h4 class="p-4 text-light accordion">Rowad Al-Ali</h4>
+              <p class="text-black-50  desc">
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, quod!""
-              </blockquote>
+              </p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="box bg-white">
               <img src="imgs/team (4).jpg" alt="" class="img-fluid w-100" />
-              <h4 class="p-4 text-light">Hana Al Ahmad</h4>
-              <blockquote class="text-black-50 p-3">
+              <h4 class="p-4 text-light accordion">Hana Al Ahmad</h4>
+              <p class="text-black-50  desc">
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, quod!""
-              </blockquote>
+              </p>
             </div>
           </div>
         </div>
@@ -297,6 +299,7 @@
           </div>
           <div class="col-md-6 col-lg-7 mb-5">
             <input
+            id="my-input"
               type="text"
               placeholder="Enter Email Address"
               class="w-100 text-light p-2 bg-transparent"
@@ -399,5 +402,6 @@
     <!-- end footer -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
